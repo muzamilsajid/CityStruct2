@@ -1,0 +1,9 @@
+c:\users\muzamil-pc\documents\visual studio 2015\Projects\CityStruct\CityStruct\bin\Debug\CityStruct.exe.config
+c:\users\muzamil-pc\documents\visual studio 2015\Projects\CityStruct\CityStruct\bin\Debug\CityStruct.exe
+c:\users\muzamil-pc\documents\visual studio 2015\Projects\CityStruct\CityStruct\bin\Debug\CityStruct.pdb
+c:\users\muzamil-pc\documents\visual studio 2015\Projects\CityStruct\CityStruct\obj\Debug\CityStruct.csprojResolveAssemblyReference.cache
+c:\users\muzamil-pc\documents\visual studio 2015\Projects\CityStruct\CityStruct\obj\Debug\CityStruct.Form1.resources
+c:\users\muzamil-pc\documents\visual studio 2015\Projects\CityStruct\CityStruct\obj\Debug\CityStruct.Properties.Resources.resources
+c:\users\muzamil-pc\documents\visual studio 2015\Projects\CityStruct\CityStruct\obj\Debug\CityStruct.csproj.GenerateResource.Cache
+c:\users\muzamil-pc\documents\visual studio 2015\Projects\CityStruct\CityStruct\obj\Debug\CityStruct.exe
+c:\users\muzamil-pc\documents\visual studio 2015\Projects\CityStruct\CityStruct\obj\Debug\CityStruct.pdb
