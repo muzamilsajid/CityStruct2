@@ -107,6 +107,7 @@
             this.listBoxCityDetails.Name = "listBoxCityDetails";
             this.listBoxCityDetails.Size = new System.Drawing.Size(240, 212);
             this.listBoxCityDetails.TabIndex = 6;
+            this.listBoxCityDetails.SelectedIndexChanged += new System.EventHandler(this.listBoxCityDetails_SelectedIndexChanged);
             // 
             // btnIncPop
             // 
@@ -159,6 +160,7 @@
             this.listBoxPersons.Name = "listBoxPersons";
             this.listBoxPersons.Size = new System.Drawing.Size(129, 212);
             this.listBoxPersons.TabIndex = 10;
+            this.listBoxPersons.SelectedIndexChanged += new System.EventHandler(this.listBoxPersons_SelectedIndexChanged);
             // 
             // label2
             // 

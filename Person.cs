@@ -26,13 +26,14 @@ namespace CityStruct
             get { return age; }
         }
 
-        City CityLocated;
+        public City CityLocated;
 
         public void CreateNewPerson(string fName,string lName)
         {
             firstname = fName;
             lastname = lName;
             age = new Random().Next(17, 35);
+            CityLocated = new City();
         }
     }
 }

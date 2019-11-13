@@ -119,7 +119,7 @@ namespace CityStruct
 
 
             newPerson.CreateNewPerson(txtFirstName.Text, txtLastName.Text);
-            myListOfPersons.Add(newPerson);
+            
 
             listBoxPersons.Items.Add(newPerson.FirstName);
 
@@ -128,9 +128,47 @@ namespace CityStruct
                 if (cities.Name == cmbCities.Text)
                 {
 
+                    newPerson.CityLocated = cities;
                     cities.ListOfPersons.Add(newPerson);
+                    
                 }
             }
+
+            myListOfPersons.Add(newPerson);
+        }
+
+        private void listBoxPersons_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listBoxPersonDetails.Items.Clear();
+
+            foreach (Person persons in myListOfPersons)
+            {
+                if (persons.FirstName == listBoxPersons.Text)
+                {
+                    listBoxPersonDetails.Items.Add($"{persons.FirstName} | {persons.LastName} | {persons.Age} | {persons.CityLocated.Name}");
+                }
+            }
+        }
+
+        private void listBoxCityDetails_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listBoxPersonDetails.Items.Clear();
+
+
+            foreach (City cities in myListOfCities)
+            {
+                if(cities.Name == listBoxCities.Text)
+                {
+                    foreach (Person persons in cities.ListOfPersons)
+                    {
+                        if (persons.FirstName == listBoxCityDetails.Text)
+                        {
+                            listBoxPersonDetails.Items.Add($"{persons.FirstName} | {persons.LastName} | {persons.Age}");
+                        }
+                    }
+                }
+            }
+            
         }
     }
 }
